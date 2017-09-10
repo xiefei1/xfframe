@@ -1,0 +1,26 @@
+{
+    "name": "xiefei1/xfframe",
+    "description": "c86",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "xiefei",
+            "email": "1181021919@qq.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1"
+    },
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system\\"
+
+        }
+    }
+}
